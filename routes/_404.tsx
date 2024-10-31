@@ -6,22 +6,19 @@ export default function Error404() {
       <Head>
         <title>404 - Page not found</title>
       </Head>
-      <div class="px-4 py-8 mx-auto bg-[#86efac]">
-        <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <img
-            class="my-6"
-            src="/logo.svg"
-            width="128"
-            height="128"
-            alt="the Fresh logo: a sliced lemon dripping with juice"
-          />
-          <h1 class="text-4xl font-bold">404 - Page not found</h1>
-          <p class="my-4">
-            The page you were looking for doesn't exist.
+      <main class="w-full h-screen bg-dark-500">
+        <div class="max-w-[800px] mx-auto pt-4 flex flex-col gap-4 p-4">
+          <h1 class="font-manuka text-white-50 text-4xl mt-1 mb-[-8px]">
+            404 - Page not found
+          </h1>
+          <p class="font-inter text-dark-200">
+            Sorry but this page doesn't exist.
           </p>
-          <a href="/" class="underline">Go back home</a>
+          <a href="/" class="text-inter text-xl text-blue-500 hover:underline">
+            Go back to base!!
+          </a>
         </div>
-      </div>
+      </main>
     </>
   );
 }

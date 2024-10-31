@@ -15,9 +15,9 @@ export default function NameInput() {
       <input
         type="text"
         id="nameInput"
-        placeholder="16 characters max."
+        placeholder="17 characters max."
         value={name}
-        maxlength="16"
+        maxlength="17"
         class="rounded bg-dark-500 border-dark-200 border-solid border-[1px] py-1 px-2 ocus:border-solid focus-visible:outline-none focus-visible:border-blue-500 text-white-50"
       />
       <button
