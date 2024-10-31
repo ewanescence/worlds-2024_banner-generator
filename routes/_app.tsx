@@ -17,7 +17,10 @@ export default function App({ Component }: PageProps) {
           property="og:description"
           content="Generate your free custom banner and show who you are rooting for in the finals!"
         />
-        <meta property="og:image" content="/worlds-2024_banner_demo.png" />
+        <meta
+          property="og:image"
+          content="https://worlds.ewanescence.com/worlds-2024_banner_demo.png"
+        />
         <meta property="og:url" content="https://worlds.ewanescence.com" />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -26,7 +29,10 @@ export default function App({ Component }: PageProps) {
           name="twitter:description"
           content="Generate your free custom banner and show who you are rooting for in the finals!"
         />
-        <meta name="twitter:image" content="/worlds-2024_banner_demo.png" />
+        <meta
+          name="twitter:image"
+          content="https://worlds.ewanescence.com/worlds-2024_banner_demo.png"
+        />
         {/* Favicon */}
         <link
           rel="apple-touch-icon"
