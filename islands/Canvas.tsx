@@ -16,7 +16,7 @@ export default function Canvas() {
         const teamImg = document.getElementById(`${team.value}Logo`);
         ctx.drawImage(
           teamImg,
-          canvas.width - 442,
+          canvas.width - 400,
           (canvas.height - 350) / 2,
           350,
           350,
@@ -25,7 +25,7 @@ export default function Canvas() {
 
       ctx.fillStyle = "white";
       ctx.font = "228px ManukaCondensed";
-      ctx.fillText(name.value.toUpperCase(), 92, (canvas.height + 170) / 2);
+      ctx.fillText(name.value.toUpperCase(), 46, (canvas.height + 170) / 2);
     }
   }, [name.value, team.value]);
 
