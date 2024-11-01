@@ -25,7 +25,7 @@ export default function TeamInput() {
             width="70"
             height="70"
             src="/t1.png"
-            alt="Logo BLG"
+            alt="Logo T1"
           />
         </button>
         <button
@@ -41,7 +41,23 @@ export default function TeamInput() {
             width="70"
             height="70"
             src="/blg.png"
-            alt="Logo T1"
+            alt="Logo BLG"
+          />
+        </button>
+        <button
+          class={`px-4 py-2 rounded border border-solid border-dark-400 ${
+            team.value === "KC"
+              ? "bg-blue-500 hover:bg-blue-500"
+              : "bg-dark-500 hover:bg-blue-200"
+          }`}
+          onClick={(e) => handleUpdate(e, "KC")}
+        >
+          <img
+            id="KCLogo"
+            width="70"
+            height="70"
+            src="/kc.png"
+            alt="Logo KC"
           />
         </button>
       </div>
